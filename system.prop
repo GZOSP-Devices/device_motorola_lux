@@ -7,9 +7,11 @@ ro.qc.sdk.audio.fluencetype=fluence
 
 # Display
 ro.sf.lcd_density=480
+debug.hwui.use_buffer_age=false
 
 # USB debugging at boot
 persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
+
