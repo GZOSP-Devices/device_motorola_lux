@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/lux/full_lux.mk)
 
+# Inherit some common GZOSP stuff.
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
